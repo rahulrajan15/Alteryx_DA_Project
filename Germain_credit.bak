@@ -1,0 +1,109 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="174" y="126" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>german_credit.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="Creditability" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Account Balance" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Duration of Credit (month)" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Payment Status of Previous Credit" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Purpose" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Credit Amount" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Value Savings/Stocks" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Length of current employment" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Instalment per cent" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Sex &amp; Marital Status" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Guarantors" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Duration in Current address" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Most valuable available asset" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Age (years)" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Concurrent Credits" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Type of apartment" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="No of Credits at this Bank" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Occupation" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="No of dependents" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Telephone" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+            <Field name="Foreign Worker" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\german_credit.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+  </Nodes>
+  <Connections />
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>Germain_credit</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="d5338d06-934b-4608-8f41-e8773a44b215" />
+      <Telemetry>
+        <PreviousWorkflowId value="c18531eb-d77e-431c-88a0-135bce86c6db" />
+        <OriginWorkflowId value="c18531eb-d77e-431c-88a0-135bce86c6db" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

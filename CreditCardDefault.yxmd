@@ -1,0 +1,843 @@
+<?xml version="1.0"?>
+<AlteryxDocument yxmdVer="2023.2" RunE2="T">
+  <Nodes>
+    <Node ToolID="1">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.DbFileInput.DbFileInput">
+        <Position x="42" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Passwords />
+          <File RecordLimit="" SearchSubDirs="False" FileFormat="0" OutputFileName="">D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv</File>
+          <FormatSpecificOptions>
+            <HeaderRow>True</HeaderRow>
+            <IgnoreErrors>False</IgnoreErrors>
+            <AllowShareWrite>False</AllowShareWrite>
+            <ImportLine>1</ImportLine>
+            <FieldLen>254</FieldLen>
+            <SingleThreadRead>False</SingleThreadRead>
+            <IgnoreQuotes>DoubleQuotes</IgnoreQuotes>
+            <Delimeter>,</Delimeter>
+            <QuoteRecordBreak>False</QuoteRecordBreak>
+            <CodePage>28591</CodePage>
+          </FormatSpecificOptions>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>default of credit card clients.csv</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="LIMIT_BAL" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="SEX" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="EDUCATION" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="MARRIAGE" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="AGE" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_1" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_2" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_3" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_4" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_5" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_6" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT1" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT2" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT3" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT4" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT5" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="BILL_AMT6" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT1" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT2" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT3" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT4" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT5" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="PAY_AMT6" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+            <Field name="dpnm" size="254" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="V_String" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxDbFileInput" />
+    </Node>
+    <Node ToolID="2">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AutoField.AutoField">
+        <Position x="150" y="174" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields>
+            <Field field="ID" selected="True" />
+            <Field field="LIMIT_BAL" selected="True" />
+            <Field field="SEX" selected="True" />
+            <Field field="EDUCATION" selected="True" />
+            <Field field="MARRIAGE" selected="True" />
+            <Field field="AGE" selected="True" />
+            <Field field="PAY_1" selected="True" />
+            <Field field="PAY_2" selected="True" />
+            <Field field="PAY_3" selected="True" />
+            <Field field="PAY_4" selected="True" />
+            <Field field="PAY_5" selected="True" />
+            <Field field="PAY_6" selected="True" />
+            <Field field="BILL_AMT1" selected="True" />
+            <Field field="BILL_AMT2" selected="True" />
+            <Field field="BILL_AMT3" selected="True" />
+            <Field field="BILL_AMT4" selected="True" />
+            <Field field="BILL_AMT5" selected="True" />
+            <Field field="BILL_AMT6" selected="True" />
+            <Field field="PAY_AMT1" selected="True" />
+            <Field field="PAY_AMT2" selected="True" />
+            <Field field="PAY_AMT3" selected="True" />
+            <Field field="PAY_AMT4" selected="True" />
+            <Field field="PAY_AMT5" selected="True" />
+            <Field field="PAY_AMT6" selected="True" />
+            <Field field="dpnm" selected="True" />
+            <Field field="*Unknown" selected="True" />
+          </Fields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <MetaInfo connection="Output">
+          <RecordInfo>
+            <Field name="ID" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="LIMIT_BAL" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="SEX" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Byte" />
+            <Field name="EDUCATION" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Byte" />
+            <Field name="MARRIAGE" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Byte" />
+            <Field name="AGE" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Byte" />
+            <Field name="PAY_1" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="PAY_2" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="PAY_3" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="PAY_4" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="PAY_5" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="PAY_6" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int16" />
+            <Field name="BILL_AMT1" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="BILL_AMT2" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="BILL_AMT3" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="BILL_AMT4" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="BILL_AMT5" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="BILL_AMT6" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT1" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT2" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT3" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT4" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT5" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="PAY_AMT6" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Int32" />
+            <Field name="dpnm" source="File: D:\Courses_Files\Alteryx_files_resources\Ex_Files_Alteryx_for_Financial_Services\Exercise Files\default of credit card clients.csv" type="Byte" />
+          </RecordInfo>
+        </MetaInfo>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxAutoField" />
+    </Node>
+    <Node ToolID="3">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BasicDataProfile.BasicDataProfile">
+        <Position x="234" y="-6" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Limit_UniqueCount>10000</Limit_UniqueCount>
+          <Limit_UniqueValuesSize>1000</Limit_UniqueValuesSize>
+          <IsMetric value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBasicDataProfile" />
+    </Node>
+    <Node ToolID="7">
+      <GuiSettings>
+        <Position x="234" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">ID=False,LIMIT_BAL=True,SEX=True,EDUCATION=True,MARRIAGE=True,AGE=True,PAY_1=True,PAY_2=True,PAY_3=True,PAY_4=True,PAY_5=True,PAY_6=True,BILL_AMT1=True,BILL_AMT2=True,BILL_AMT3=True,BILL_AMT4=True,BILL_AMT5=True,BILL_AMT6=True,PAY_AMT1=True,PAY_AMT2=True,PAY_AMT3=True,PAY_AMT4=True,PAY_AMT5=True,PAY_AMT6=True,dpnm=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="8">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_04725d50562f8146a4e77e559f890358~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="9">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="366" y="150" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_6a2504b0b9aa934f81fcd7dc8ffc1ad4~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="10">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="234" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="ID" selected="False" />
+            <SelectField field="SEX" selected="True" type="V_String" size="3" />
+            <SelectField field="EDUCATION" selected="True" type="V_String" size="3" />
+            <SelectField field="MARRIAGE" selected="True" type="V_String" size="3" />
+            <SelectField field="AGE" selected="True" type="Int16" size="2" />
+            <SelectField field="PAY_1" selected="True" type="V_String" size="5" />
+            <SelectField field="PAY_2" selected="True" type="V_String" size="5" />
+            <SelectField field="PAY_3" selected="True" type="V_String" size="5" />
+            <SelectField field="PAY_4" selected="True" type="V_String" size="5" />
+            <SelectField field="PAY_5" selected="True" type="V_String" size="5" />
+            <SelectField field="PAY_6" selected="True" type="V_String" size="5" />
+            <SelectField field="dpnm" selected="True" rename="Default" type="V_String" size="3" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="11">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="342" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Mode>Simple</Mode>
+          <Simple>
+            <Operator>=</Operator>
+            <Field>MARRIAGE</Field>
+            <Operands>
+              <IgnoreTimeInDateTime>True</IgnoreTimeInDateTime>
+              <DateType>fixed</DateType>
+              <PeriodDate>2024-02-05 17:59:19</PeriodDate>
+              <PeriodType>
+              </PeriodType>
+              <PeriodCount>0</PeriodCount>
+              <Operand>0</Operand>
+              <StartDate>2024-02-05 17:59:19</StartDate>
+              <EndDate>2024-02-05 17:59:19</EndDate>
+            </Operands>
+          </Simple>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[MARRIAGE] = "0"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="12">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.Filter.Filter">
+        <Position x="450" y="258" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Expression>[EDUCATION]="0" ||[EDUCATION]="5" || [EDUCATION]="6"</Expression>
+          <Mode>Custom</Mode>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>[EDUCATION]="0" ||[EDUCATION]="5" || [EDUCATION]="6"</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxFilter" />
+    </Node>
+    <Node ToolID="13">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.PearsonCorrelation.PearsonCorrelation">
+        <Position x="570" y="330" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Fields orderChanged="False">
+            <Field name="LIMIT_BAL" />
+            <Field name="AGE" />
+            <Field name="BILL_AMT1" />
+            <Field name="BILL_AMT2" />
+            <Field name="BILL_AMT3" />
+            <Field name="BILL_AMT4" />
+            <Field name="BILL_AMT5" />
+            <Field name="BILL_AMT6" />
+            <Field name="PAY_AMT1" />
+            <Field name="PAY_AMT2" />
+            <Field name="PAY_AMT3" />
+            <Field name="PAY_AMT4" />
+            <Field name="PAY_AMT5" />
+            <Field name="PAY_AMT6" />
+            <Field name="*Unknown" />
+          </Fields>
+          <Covariance value="False" />
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxPearsonCorrelation" />
+    </Node>
+    <Node ToolID="14">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.AlteryxSelect.AlteryxSelect">
+        <Position x="570" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <OrderChanged value="False" />
+          <CommaDecimal value="False" />
+          <SelectFields>
+            <SelectField field="BILL_AMT2" selected="False" />
+            <SelectField field="BILL_AMT3" selected="False" />
+            <SelectField field="BILL_AMT4" selected="False" />
+            <SelectField field="BILL_AMT5" selected="False" />
+            <SelectField field="BILL_AMT6" selected="False" />
+            <SelectField field="*Unknown" selected="True" />
+          </SelectFields>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxSelect" />
+    </Node>
+    <Node ToolID="15">
+      <GuiSettings>
+        <Position x="666" y="246" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="estimation pct">80</Value>
+          <Value name="validation pct">20</Value>
+          <Value name="rand seed">1</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Create_Samples.yxmc" />
+    </Node>
+    <Node ToolID="16">
+      <GuiSettings>
+        <Position x="738" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Selected_Field">Default</Value>
+          <Value name="Oversample_Value">1</Value>
+          <Value name="Desired_Pct">50</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Oversample_Field.yxmc" />
+    </Node>
+    <Node ToolID="17">
+      <GuiSettings>
+        <Position x="834" y="66" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="Select Fields">LIMIT_BAL=False,SEX=False,EDUCATION=False,MARRIAGE=False,AGE=False,PAY_1=False,PAY_2=False,PAY_3=False,PAY_4=False,PAY_5=False,PAY_6=False,BILL_AMT1=False,PAY_AMT1=False,PAY_AMT2=False,PAY_AMT3=False,PAY_AMT4=False,PAY_AMT5=False,PAY_AMT6=False,Default=True</Value>
+          <Value name="Sample Data">False</Value>
+          <Value name="Number">True</Value>
+          <Value name="NNumber">5000</Value>
+          <Value name="Percent">False</Value>
+          <Value name="NPercent">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+        <Dependencies>
+          <Implicit />
+        </Dependencies>
+      </Properties>
+      <EngineSettings Macro="Predictive Tools\Field_Summary_Report.yxmc" />
+    </Node>
+    <Node ToolID="18">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="930" y="78" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_8776f6e026965644a591b2c343cbace8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="19">
+      <GuiSettings Plugin="Logistic_Regression">
+        <Position x="846" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Home</Value>
+          <Value name="curTab">advanced</Value>
+          <Value name="lambda_1se">True</Value>
+          <Value name="lambda_min">False</Value>
+          <Value name="Model Name">Logistic_Regression</Value>
+          <Value name="Y Var">Default</Value>
+          <Value name="X Vars">LIMIT_BAL,SEX,EDUCATION,MARRIAGE,AGE,PAY_1,PAY_2,PAY_3,PAY_4,PAY_5,PAY_6,BILL_AMT1,PAY_AMT1,PAY_AMT2,PAY_AMT3,PAY_AMT4,PAY_AMT5,PAY_AMT6</Value>
+          <Value name="Use Weights">False</Value>
+          <Value name="Weight Vec" />
+          <Value name="regularization">False</Value>
+          <Value name="alpha">0.5</Value>
+          <Value name="standardize_pred">False</Value>
+          <Value name="internal_cv">False</Value>
+          <Value name="nfolds">5</Value>
+          <Value name="lambda">lambda_1se</Value>
+          <Value name="set_seed_internal_cv">False</Value>
+          <Value name="seed_internal_cv">1</Value>
+          <Value name="lambda_no_cv">0.5</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="Link">logit</Value>
+          <Value name="external_cv">False</Value>
+          <Value name="nfolds_external">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="set_seed_external_cv">False</Value>
+          <Value name="external_seed_value">1</Value>
+          <Value name="graph.resolution">1x</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Logistic_Regression</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" EngineDll="Macro" EngineDllEntryPoint="Logistic_Regression/Supporting_Macros/Logistic_Regression.yxmc" />
+    </Node>
+    <Node ToolID="20">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="186" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_213dd349040ef04388e0ab5d69fcf0bb~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="21">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="966" y="270" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_4eea91b9a9c7b547a2f3efefa97ad6ec~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="22">
+      <GuiSettings Plugin="Decision_Tree">
+        <Position x="870" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <Value name="curPage">Customize</Value>
+          <Value name="curTab">graphics</Value>
+          <Value name="curToggle">toggle-pruneplot</Value>
+          <Value name="display.static">True</Value>
+          <Value name="set_seed_cv">True</Value>
+          <Value name="showClassificationCV">True</Value>
+          <Value name="showWhenTreePlotAvailable">True</Value>
+          <Value name="showWhenAlgorithmAvailable">True</Value>
+          <Value name="use.gini">True</Value>
+          <Value name="use.information">False</Value>
+          <Value name="usesurrogate.0">True</Value>
+          <Value name="usesurrogate.1">False</Value>
+          <Value name="usesurrogate.2">False</Value>
+          <Value name="total.correct">True</Value>
+          <Value name="percent.correct">False</Value>
+          <Value name="model_type">auto</Value>
+          <Value name="auto">True</Value>
+          <Value name="classification">False</Value>
+          <Value name="regression">False</Value>
+          <Value name="tree_summary">Counts</Value>
+          <Value name="Counts">True</Value>
+          <Value name="Proportions">False</Value>
+          <Value name="tree_plot_size">tree.inches</Value>
+          <Value name="tree.inches">True</Value>
+          <Value name="tree.centimeters">False</Value>
+          <Value name="pruning_plot_size">prune.inches</Value>
+          <Value name="prune.inches">True</Value>
+          <Value name="prune.centimeters">False</Value>
+          <Value name="Model Name">Decision_Tree</Value>
+          <Value name="Y Var">Default</Value>
+          <Value name="X Vars">LIMIT_BAL,SEX,EDUCATION,MARRIAGE,AGE,PAY_1,PAY_2,PAY_3,PAY_4,PAY_5,PAY_6,BILL_AMT1,PAY_AMT1,PAY_AMT2,PAY_AMT3,PAY_AMT4,PAY_AMT5,PAY_AMT6</Value>
+          <Value name="model.algorithm">rpart</Value>
+          <Value name="posClass">
+          </Value>
+          <Value name="use.weights">False</Value>
+          <Value name="select.weights" />
+          <Value name="splitting_criteria">use.gini</Value>
+          <Value name="surrogate_use">usesurrogate.0</Value>
+          <Value name="surrogate_split_criteria">total.correct</Value>
+          <Value name="min.split">20</Value>
+          <Value name="min.bucket">7</Value>
+          <Value name="xval.folds">10</Value>
+          <Value name="max.depth">20</Value>
+          <Value name="max.bins">
+          </Value>
+          <Value name="set_cp">False</Value>
+          <Value name="cp">0</Value>
+          <Value name="rules">False</Value>
+          <Value name="bands_check">False</Value>
+          <Value name="bands">10</Value>
+          <Value name="subset">False</Value>
+          <Value name="winnow">False</Value>
+          <Value name="GlobalPruning">False</Value>
+          <Value name="fuzzyThreshold">False</Value>
+          <Value name="earlyStopping">False</Value>
+          <Value name="trials">1</Value>
+          <Value name="CF">0.25</Value>
+          <Value name="minCases">2</Value>
+          <Value name="sample">0</Value>
+          <Value name="seed">1</Value>
+          <Value name="use_cv">False</Value>
+          <Value name="numberFolds">5</Value>
+          <Value name="numberTrials">3</Value>
+          <Value name="stratified">False</Value>
+          <Value name="cv_seed">1</Value>
+          <Value name="tree.plot">True</Value>
+          <Value name="Branch Dist">False</Value>
+          <Value name="tree.in.w">8</Value>
+          <Value name="tree.in.h">8</Value>
+          <Value name="tree.cm.w">13</Value>
+          <Value name="tree.cm.h">14.95</Value>
+          <Value name="tree.graph.resolution">1x</Value>
+          <Value name="tree.pointsize">8</Value>
+          <Value name="prune.plot">True</Value>
+          <Value name="prune.in.w">8</Value>
+          <Value name="prune.in.h">8</Value>
+          <Value name="prune.cm.w">13</Value>
+          <Value name="prune.cm.h">14.95</Value>
+          <Value name="prune.graph.resolution">1x</Value>
+          <Value name="prune.pointsize">10</Value>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText>Decision_Tree</DefaultAnnotationText>
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings Macro="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" EngineDll="Macro" EngineDllEntryPoint="Decision_Tree/Supporting_Macros/Decision_Tree.yxmc" />
+    </Node>
+    <Node ToolID="23">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="354" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_2017a021ec1419418e559c98f9d114d5~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+    <Node ToolID="24">
+      <GuiSettings Plugin="AlteryxBasePluginsGui.BrowseV2.BrowseV2">
+        <Position x="990" y="438" />
+      </GuiSettings>
+      <Properties>
+        <Configuration>
+          <TempFile>C:\Users\RAHUL_~1\AppData\Local\Temp\Engine_5232_4e12d6a579c7cc4998f27ca2d8cdddc1_\Engine_5232_2e78c04014f2b64a995933c5a00ef2a8~.yxdb</TempFile>
+          <TempFileDataProfiling />
+          <Layout>
+            <ViewMode>Single</ViewMode>
+            <ViewSize value="100" />
+            <View1>
+              <DefaultTab>Report</DefaultTab>
+              <Hints>
+                <Table />
+              </Hints>
+            </View1>
+            <View2 />
+          </Layout>
+        </Configuration>
+        <Annotation DisplayMode="0">
+          <Name />
+          <DefaultAnnotationText />
+          <Left value="False" />
+        </Annotation>
+      </Properties>
+      <EngineSettings EngineDll="AlteryxBasePluginsEngine.dll" EngineDllEntryPoint="AlteryxBrowseV2" />
+    </Node>
+  </Nodes>
+  <Connections>
+    <Connection>
+      <Origin ToolID="1" Connection="Output" />
+      <Destination ToolID="2" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="3" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="7" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="2" Connection="Output" />
+      <Destination ToolID="10" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Reports" />
+      <Destination ToolID="8" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="7" Connection="Interactive" />
+      <Destination ToolID="9" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="10" Connection="Output" />
+      <Destination ToolID="11" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="11" Connection="False" />
+      <Destination ToolID="12" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="False" />
+      <Destination ToolID="13" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="12" Connection="False" />
+      <Destination ToolID="14" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="14" Connection="Output" />
+      <Destination ToolID="15" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="15" Connection="Estimation" />
+      <Destination ToolID="16" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="17" Connection="Field Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="19" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="16" Connection="Output" />
+      <Destination ToolID="22" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="17" Connection="Interactive" />
+      <Destination ToolID="18" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Reports" />
+      <Destination ToolID="20" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="19" Connection="Interactive Report" />
+      <Destination ToolID="21" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Reports" />
+      <Destination ToolID="23" Connection="Input" />
+    </Connection>
+    <Connection>
+      <Origin ToolID="22" Connection="Interactive" />
+      <Destination ToolID="24" Connection="Input" />
+    </Connection>
+  </Connections>
+  <Properties>
+    <Memory default="True" />
+    <GlobalRecordLimit value="0" />
+    <TempFiles default="True" />
+    <Annotation on="True" includeToolName="False" />
+    <ConvErrorLimit value="10" />
+    <ConvErrorLimit_Stop value="False" />
+    <CancelOnError value="False" />
+    <DisableBrowse value="False" />
+    <EnablePerformanceProfiling value="False" />
+    <RunWithE2 value="True" />
+    <PredictiveToolsCodePage value="1252" />
+    <DisableAllOutput value="False" />
+    <ShowAllMacroMessages value="False" />
+    <ShowConnectionStatusIsOn value="True" />
+    <ShowConnectionStatusOnlyWhenRunning value="True" />
+    <ZoomLevel value="0" />
+    <LayoutType>Horizontal</LayoutType>
+    <MetaInfo>
+      <NameIsFileName value="True" />
+      <Name>CreditCardDefault</Name>
+      <Description />
+      <RootToolName />
+      <ToolVersion />
+      <ToolInDb value="False" />
+      <CategoryName />
+      <SearchTags />
+      <Author />
+      <Company />
+      <Copyright />
+      <DescriptionLink actual="" displayed="" />
+      <Example>
+        <Description />
+        <File />
+      </Example>
+      <WorkflowId value="eef87265-711e-48b5-b707-b23041670e62" />
+      <Telemetry>
+        <PreviousWorkflowId value="5353edd5-dac4-4be6-b035-afd8503e256c" />
+        <OriginWorkflowId value="5353edd5-dac4-4be6-b035-afd8503e256c" />
+      </Telemetry>
+      <PlatformWorkflowId value="" />
+    </MetaInfo>
+    <Events>
+      <Enabled value="True" />
+    </Events>
+  </Properties>
+</AlteryxDocument>

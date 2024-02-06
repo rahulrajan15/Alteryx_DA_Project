@@ -1,0 +1,33 @@
+You're an expert in writing project summary for github profile and I want you to write project summary for me with the details that I have provide you now. Also write the summary with 300 words only &  there should be 3 different paragraph sence there are 3 different certeria in this same project the summary should contain like this first about the criteria, types of models used & there outcomes, select one model from rest since the outcome was good compared to other model.
+
+Here is the project summary for the reference" 
+criteria 1: 
+Loaded the german credit csv file containing data of the people & wether they are eligble for creditworthy or not. So the entire process will be done in alteryx tool. The process that are done in alteryx tools are ETL, creating data pipelines with machine learning models with them so that they gave best possible results. First we clean the raw structured data, selected the necessary cloumns needed, added the formula to the columns using the tools in the alteryx and gathered the output data from the raw data. Now created samples from the previous data and later oversampled the data. Now added 4 models to this sample data 'Logistic Regression model', 'Decision Tree mode', 'Forest Tree model', 'Boosted model'. The 'Logistic Regression model' gave the best results oout of other models. The results are displayed using brower tool in the alteryx, there will the charts or statistical data as the output depeding the output we have selected.
+
+
+criteria 2: 
+Loaded the bank csv file containing data of the people for clustering the data for the ML models. So the entire process will be done in alteryx tool. The process that are done in alteryx tools are ETL, creating data pipelines with machine learning models with them so that they gave best possible results. First created samples from the data loaded intergrated auto field tool for automatice data type correction. Intergrated 'K-centroids diagnostics model' , 'K-centroids cluster analysis model' for finding the best solutions for this data. So 'K-centroids cluster analysis model' shows the dept details of the different clusters that have generated.
+
+
+criteria 3: 
+Loaded the credit card clients csv file containing data of the people & check wether the people are paying there credit card payments on time or is there any delay. So the entire process will be done in alteryx tool. The process that are done in alteryx tools are ETL, creating data pipelines with machine learning models with them so that they gave best possible results. First we clean the raw structured data, selected the necessary cloumns needed, added the formula to the columns using the tools in the alteryx and gathered the output data. Initally we added pearson correlation for the data to check the strength of the variables so that we can proceed furthur. Then created samples from the previous data and later oversampled the data. Now added 2 models 'Logistic Regression model', 'Decision Tree mode'. The results are displayed using brower tool in the alteryx so the more accurate & precision result was displyed by 'Decision Tree mode' for the credit card clients data regrading payments details. "
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
